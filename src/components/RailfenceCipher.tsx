@@ -1,4 +1,4 @@
-export default function railFenceCipher(text: string, rails: number): string {
+export function railFenceCipher(text: string, rails: number): string {
     const fence: string[] = Array(rails).fill('');
     let rail = 0;
     let down = false;

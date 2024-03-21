@@ -1,4 +1,4 @@
-export default function vigenereCipher(text: string, keyword: string): string {
+export function vigenereCipher(text: string, keyword: string): string {
     const key = keyword.repeat(Math.ceil(text.length / keyword.length)).slice(0, text.length);
     return text.replace(/[a-zA-Z]/g, (char, i) => {
         const textOffset = char.charCodeAt(0) >= 65 && char.charCodeAt(0) <= 90 ? 65 : 97;

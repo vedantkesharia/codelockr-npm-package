@@ -1,4 +1,4 @@
-export default function beaufortCipher(text: string, keyword: string): string {
+export function beaufortCipher(text: string, keyword: string): string {
     const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     let ciphertext = '';
     let keyIndex = 0;
