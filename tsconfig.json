@@ -5,6 +5,9 @@
       "module": "ESNext",
       "declaration": true,
       "declarationDir": "dist",
-      "strict": true
+      "strict": true,
+      "paths": {
+        "codelockr": ["node_modules/codelockr/dist/index.d.ts"] 
+      }
     }
   }
