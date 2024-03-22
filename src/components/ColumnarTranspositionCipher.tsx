@@ -1,4 +1,4 @@
-export function columnarTranspositionCipher(text: string, key: number[]): string {
+export function ColumnarTranspositionCipher(text: string, key: number[]): string {
     const columns = key.length;
     const rows = Math.ceil(text.length / columns);
     const transposed: string[] = Array(columns).fill('');

@@ -1,4 +1,4 @@
-export function autokeyCipher(text: string, key: string): string {
+export function AutokeyCipher(text: string, key: string): string {
     const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     let ciphertext = '';
     let keyIndex = 0;

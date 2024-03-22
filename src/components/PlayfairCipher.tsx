@@ -1,4 +1,4 @@
-export function playfairCipher(text: string, key: string): string {
+export function PlayfairCipher(text: string, key: string): string {
     const prepareKey = (key: string) => {
         const sanitizedKey = key.toUpperCase().replace(/[^A-Z]/g, '');
         const uniqueChars = Array.from(new Set(sanitizedKey));
