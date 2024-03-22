@@ -1,4 +1,4 @@
-<h1><strong>codelockr: A Versatile JavaScript Cryptography Library</strong></h1>
+<h1><strong>codelockr: A Versatile JavaScript/Typescript Cryptography Library</strong></h1>
 
 <p>This JavaScript/Typescript library, <strong>codelockr</strong>, empowers you to explore and implement a wide range of classical ciphers directly within your web applications. It provides user-friendly functions for various encryption and decryption techniques, making it an ideal tool for:</p>
 
