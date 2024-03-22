@@ -22,7 +22,7 @@
 
 <h2><strong>Available Ciphers</strong></h2>
 
-<p><strong>codelockr</strong> offers a rich set of cipher implementations, each with its own encryption and decryption methods. Here's a table outlining the supported ciphers and how to use them:</p>
+<p><strong>codelockr</strong> offers a rich set of cipher implementations, each with its own encryption methods. Here's a table outlining the supported ciphers and how to use them:</p>
 
 <table>
   <thead>
