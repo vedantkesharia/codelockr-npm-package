@@ -7,3 +7,4 @@ export * from './components/AutokeyCipher';
 export * from './components/ColumnarTranspositionCipher';
 export * from './components/VigenereCipher';
 export * from './components/PlayfairCipher';
+export * from './components/PolybiusSquareCipher'
